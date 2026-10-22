@@ -1,0 +1,20 @@
+# Database backups and test files - review before sharing
+db.sql
+sam.sql
+test.php
+test_db.php
+# Protect database credentials
+db.php
+
+# Local environment secrets
+.env
+.env.*
+
+# Dependencies
+vendor/
+
+# Temporary and editor files
+*.log
+.DS_Store
+.vscode/
+
